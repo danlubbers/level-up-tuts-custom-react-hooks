@@ -1,6 +1,8 @@
 import React from "react";
 import { Card, CardGrid, Container, Header } from "./Elements";
 import "./App.css";
+import Toggle from "./components/Toggle";
+import Increment from "./components/Increment";
 import Menu from "./Menu";
 import blue from "./blue.png";
 import purp from "./purp.png";
@@ -16,6 +18,8 @@ function App() {
       </Header>
       <Container>
         <h2>Super Cool</h2>
+        <Toggle />
+        <Increment />
         <CardGrid>
           <Card style={{ background: "var(--purp)" }}>
             <h3>Some card</h3>
