@@ -7,7 +7,9 @@ import Increment from "./components/Increment";
 import Mount from "./components/Mount";
 import Hover from "./components/Hover";
 import Cookie from "./components/Cookie";
+import LocalStorage from "./components/LocalStorage";
 import Script from "./components/Script";
+import Theme from "./components/Theme";
 import { PageWrapper } from "./state";
 import Menu from "./Menu";
 import blue from "./blue.png";
@@ -26,11 +28,13 @@ function App() {
         <Nav />
         <Container>
           <h2>Super Cool</h2>
+          <Theme />
           <Script />
           <Toggle />
           <Increment />
           <Mount />
           <Cookie />
+          <LocalStorage />
           <Hover />
           <CardGrid>
             <Card style={{ background: "var(--purp)" }}>
